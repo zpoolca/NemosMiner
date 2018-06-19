@@ -88,9 +88,9 @@ Speical Thankyou To "MrPlus" amazing work with the GUI, PLUS profit calculations
           - NiceHash as a 4% fee - Set PricePenaltyFactor to 0.96 (1-0.04)
           - You feel like a pool is exaggerating his estimations by 10% - Set PricePenaltyFactor to 0.9
 
-   ahashpoolplus / zergpoolplus / zpoolplus / blazepoolplus / phiphipoolplus / blockmastersplus / hashrefineryplus / starpoolplus
+   zpoolplus 
    
-      Uses calculations based on 24hractual and currentestimate ahashpool prices to get more realistic estimate.
+      Uses calculations based on 24hractual and currentestimate zpool prices to get more realistic estimate.
       Includes some trust index based on past 1hr currentestimate variation from 24hr.
       AND is NOT sensible to spikes.
       This shows less switching than following Current Estimate and more switching that following the 24hr Actual.
@@ -100,11 +100,8 @@ Speical Thankyou To "MrPlus" amazing work with the GUI, PLUS profit calculations
    
       Displays BTC/H and BTC/D as well a estimation of when the pool payment threshold will be reached.
       Supported pools:
-            ahashpool
-            zergpool
             zpool
-            nicehash
-            miningpoolhub (partial)
+
       If mining more that one pools, shows stats for any supported pool
       Press key e in the console window to show/hide earnings
 
