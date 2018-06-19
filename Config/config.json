@@ -46,8 +46,7 @@
     "MinerName": null,
     "Passwordcurrency": "BTC",
     "PoolName": [
-        "nicehash",
-        "zergpoolplus"
+        "zpoolpoolplus"
     ],
     "Proxy": "",
     "SelGPUCC": "0,1",
@@ -59,7 +58,7 @@
         "nvidia"
     ],
     "UIStyle": "Full",
-    "UserName": "nemo",
-    "Wallet": "1QGADhdMRpp9Pk5u5zG1TrHKRrdK5R81TE",
-    "WorkerName": "ID=NemosMiner3.1"
+    "UserName": "zpool",
+    "Wallet": "1G2H3m5o7Rb6zyMzKRz4dT9rvnUGMbk1AL",
+    "WorkerName": "ID=ZpoolNemosMiner3.1"
 }

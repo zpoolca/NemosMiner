@@ -18,7 +18,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 param(
     [Parameter(Mandatory = $false)]
-    [String]$Wallet = "1QGADhdMRpp9Pk5u5zG1TrHKRrdK5R81TE", 
+    [String]$Wallet = "1G2H3m5o7Rb6zyMzKRz4dT9rvnUGMbk1AL", 
     [Parameter(Mandatory = $false)]
     [String]$UserName = "nemo", 
     [Parameter(Mandatory = $false)]
@@ -254,8 +254,8 @@ $Config | Add-Member -Force -MemberType ScriptProperty -Name "PoolsConfig" -Valu
     }
     else {
         [PSCustomObject]@{default = [PSCustomObject]@{
-                Wallet = "1QGADhdMRpp9Pk5u5zG1TrHKRrdK5R81TE"
-                UserName = "nemo"
+                Wallet = "1G2H3m5o7Rb6zyMzKRz4dT9rvnUGMbk1AL"
+                UserName = "zpool"
                 WorkerName = "NemosMinerNoCfg"
                 PricePenaltyFactor = 1
             }

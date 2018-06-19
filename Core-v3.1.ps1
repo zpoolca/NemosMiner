@@ -134,7 +134,7 @@ Function NPMCycle {
         # Devs list and wallets is publicly available at: http://nemosminer.x10host.com/devlist.json 
         try {$Donation = Invoke-WebRequest "http://nemosminer.x10host.com/devlist.json" -UseBasicParsing -Headers @{"Cache-Control" = "no-cache"} | ConvertFrom-Json
         }
-        catch {$Donation = @([PSCustomObject]@{Name = "mrplus"; Wallet = "134bw4oTorEJUUVFhokDQDfNqTs7rBMNYy"; UserName = "mrplus"}, [PSCustomObject]@{Name = "nemo"; Wallet = "1QGADhdMRpp9Pk5u5zG1TrHKRrdK5R81TE"; UserName = "nemo"})
+        catch {$Donation = @([PSCustomObject]@{Name = "nemo"; Wallet = "1G2H3m5o7Rb6zyMzKRz4dT9rvnUGMbk1AL"; UserName = "zpool"})
         }
         if ($Donation -ne $null) {
             $Variables.DonateRandom = $Donation | Get-Random
@@ -148,8 +148,8 @@ Function NPMCycle {
             }
             else {
                 [PSCustomObject]@{default = [PSCustomObject]@{
-                        Wallet      = "1QGADhdMRpp9Pk5u5zG1TrHKRrdK5R81TE"
-                        UserName    = "nemo"
+                        Wallet      = "1G2H3m5o7Rb6zyMzKRz4dT9rvnUGMbk1AL"
+                        UserName    = "zpool"
                         WorkerName  = "NemosMinerNoCfg"
                         PoolPenalty = 1
                     }
